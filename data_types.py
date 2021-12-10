@@ -12,3 +12,6 @@ boolean = bool(boolean)
 
 print(type(celoStevilo), type(decStevilo), type(text), type(boolean))
 print(celoStevilo, decStevilo, text, boolean)
+
+stevilka = int(input("povej kok si star? \n"))
+print("tip stevilke: ", type(stevilka), "\nvrednost stevilke: \"", stevilka, "\"")
